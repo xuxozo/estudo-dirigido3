@@ -1,0 +1,64 @@
+1. Faça um Programa que leia um vetor de 5 números inteiros e mostre-os.
+
+2. Faça um Programa que leia um vetor de 10 números reais e mostre-os na ordem inversa.
+
+3. Crie uma lista com os 20 primeiros colocados do Campeonato Brasileiro de Futebol. 
+a) Faça um programa que mostre os 5 primeiros colocados; 
+b) Os últimos 4 colocados (zona de rebaixamento); 
+c) Mostre a posição em que se encontra a Chapecoense;
+d) Exiba a lista dos times em ordem alfabética;
+
+1: O que é uma função em Python?
+a) Uma sequência de comando com um nome.
+b) Qualquer sequência de comandos. 
+c) Uma expressão matemática que calcula um valor. 
+d) Um comando da forma x = 5 + 4
+
+2: Qual é uma das finalidades principais de uma função? 
+a) Melhorar a velocidade de execução.
+b) Ajudar programadores a organizar programas em pedaços que correspondam a como eles pensam a solução do problema.
+c) Todos os programas em Python devem ser escritos usando funções.
+d) Para calcular valores.
+
+3: Qual dos seguintes é um cabeçalho válido de uma função (a primeira linha da definição da função)?
+a) def desenhaCirculo(t):
+b) def desenhaCirculo: 
+c) desenhaCirculo(t, tam):
+d) def desenhaCirculo(t, tam
+
+4: Qual é o nome da seguinte função?
+def desenhaQuadrado(t, tam): 
+"""Faca a tartaruga t desenhar um quadrado com lado tam."""
+      for i in range(4): 
+      t.forward(tam) 
+      t.left(90
+
+a) def desenhaQuadrado(t, tam) 
+b) desenhaQuadrado
+c) desenhaQuadrado(t, tam)
+d) Faça a tartaruga t desenhar um quadrado com lado tam.
+
+5: Quais são os parâmetros da seguinte função?
+def desenhaQuadrado(t, tam):
+"""Faca a tartaruga t desenhar um quadrado com lado tam."""
+for i in range(4):
+   t.forward(tam) 
+   t.left(90)
+a) i 
+b) t
+c) t, tam 
+d) t, tam, i
+
+6: Considerando a função abaixo, quais dos comandos seguintes chama a função corretamente (i.e., causa a execução da função)?
+Assuma quejá definimos uma tartaruga de nome alex.
+def desenhaQuadrado(t, tam): 
+"""Faca a tartaruga t desenhar um quadrado com lado tam.""" 
+for i in range(4):
+   t.forward(tam) 
+   t.left(90)
+   
+a) def desenhaQuadrado(t, tam) 
+b) desenhaQuadrado
+c) desenhaQuadrado(10)
+d) desenhaQuadrado(alex, 10): 
+e) desenhaQuadrado(alex, 10)
